@@ -10,8 +10,8 @@ const MealDetails = () => {
   //     navigate(`/meal/${idMeal}`)
   // }
   return (
-    <div>
-      <div className="navbar bg-base-100 mb-20">
+    <div className="m-auto text-center">
+      <div className="navbar bg-base-100 mb-8">
         <div className="flex-1">
           <a href="/" className="btn btn-ghost normal-case text-xl">
             MealDB
@@ -51,7 +51,7 @@ const MealDetails = () => {
           </div>
         </div>
       </div>
-      <div className="card w-96 bg-base-100 shadow-xl">
+      <div className="card w-96 bg-base-100 shadow-xl m-auto">
         <figure className="px-10 pt-10">
           <img src={strMealThumb} alt="Shoes" className="rounded-xl" />
         </figure>
