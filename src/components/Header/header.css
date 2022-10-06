@@ -1,0 +1,14 @@
+.header a {
+  margin-right: 15px;
+  padding: 2px 5px;
+  text-decoration: none;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+.header a:hover {
+  color: rgb(91, 91, 241);
+  background-color: antiquewhite;
+}
+.active {
+  background-color: rgb(192, 243, 237);
+}
