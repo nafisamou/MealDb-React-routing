@@ -10,7 +10,9 @@ const Meal = ({ meal }) => {
     navigate(`/meal/${idMeal}`);
   };
   return (
+    
     <div className="card w-96 bg-base-100 shadow-xl">
+
     <figure><img src={strMealThumb} alt="Shoes" /></figure>
     <div className="card-body">
       <h2 className="card-title">
